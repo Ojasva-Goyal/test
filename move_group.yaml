@@ -1,0 +1,10 @@
+move_group:
+  planning_plugin: ompl_interface/OMPLPlanner
+  request_adapters: {}
+  start_state_max_bounds_error: 0.1
+
+planning_pipeline:
+  planner_configs: [RRTConnectkConfigDefault]
+  ompl:
+    planning_time: 5.0
+    simplify_solution: true

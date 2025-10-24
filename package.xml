@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>g1_moveit_config</name>
+  <version>0.1.0</version>
+  <description>Auto-generated MoveIt2 config package.</description>
+  <maintainer email="you@example.com">you</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>moveit_ros_planning</depend>
+  <depend>rviz2</depend>
+</package>
